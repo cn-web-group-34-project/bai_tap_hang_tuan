@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .wrap{
+            width: 800px;
+        }   
+        table, tr{
+            width: 100%;
+        }
+        table, tr, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+        .header{
+            display: flex;
+        }
+        .header > td:first-child{
+            flex: 3;
+        }
+        .header > td:last-child{
+            flex: 1;
+        }
+        tr{
+            display: flex;
+        }
+        tr td:first-child{
+            flex: 1;
+        }
+        tr td:last-child{
+            flex: 4;
+        }
+        .header h3{
+            margin: 16px;
+        }
+        .header p{
+            margin: 4px 32px;
+        }
+        .header p:last-child{
+            margin-bottom: 16px;
+        }
+        .table2 h3{
+            margin-left: 8px;
+        }
+        .table2 p{
+            margin: 8px 0px 8px 8px;
+
+        }
+        
+
+    </style>
+</head>
+<body>
+    <div class="wrap">
+        <table>
+            <tr class="header">
+                <td>
+                    <h3>Personal Details</h3>
+                    <p>Họ tên: Lê Văn Chiến. MSSV: 20194233</p>
+                    <p>Ngày sinh: 22/08/2001</p>
+                    <p>Địa chỉ: Phố Huế, Hai Bà Trưng, Hà Nội</p>
+                </td>
+                <td>
+                    <h3 style="text-align: center">Image</h3>
+                </td>
+            </tr>
+        </table>
+        <table class="table2">
+            <tr>
+                <td>
+                    <h3>Education process</h3>
+                </td>
+                <td>
+                    <p>2016 - 2019: Trường Trung học phổ thông Lý Thường Kiệt, Hải Phòng</p>
+                    <p>2019 - Hiện tại: Trường đại học Công nghệ thông tin và truyền thông Đại học Bách khoa Hà Nội</p>
+                </td>
+            </tr>
+            <tr>
+                <td><h3>Skills</h3></td>
+                <td>
+                    <p>Lập trình C, C++</p>
+                    <p>HTML, CSS</p>
+                </td>
+            </tr>
+            <tr>
+                <td><h3>Experiences</h3></td>
+                <td><p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ab harum laudantium officia numquam necessitatibus, quod odit, fugiat veniam ducimus voluptatem molestias ad mollitia hic recusandae accusamus aperiam provident, reprehenderit optio.</p></td>
+            </tr>
+            <tr>
+                <td><h3>Certifications</h3></td>
+                <td><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, natus vitae. Assumenda accusamus adipisci debitis quo neque sequi nesciunt reiciendis fugit temporibus repudiandae, maxime dolorum vel rerum eveniet odit nihil.</p></td>
+            </tr>
+            <tr>
+                <td><h3>Hobbies</h3></td>
+                <td><p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Assumenda nihil sed quos similique voluptas dignissimos excepturi, rerum ad, rem quibusdam vero sequi doloribus provident nobis nam qui molestias nesciunt nemo!</p></td>
+            </tr>
+            <tr>
+                <td><h3>Desire</h3></td>
+                <td><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita id repellendus commodi voluptas quis fuga, rem beatae natus? Nemo harum quod quia dignissimos possimus deleniti fuga sunt, illo iusto eos.</p></td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
