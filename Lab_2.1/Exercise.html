@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table,td{
+            border: 1px solid black;
+        }
+        
+    </style>
+</head>
+<body>
+    <h3>Biểu mẫu thu thập thông tin người dùng</h3>
+    <form action="./Exercise.php" method="POST" id="info">
+        <table>
+			<tr>
+				<td>Your name</td>
+				<td><input type="text" name="name"></td>
+			</tr>
+			<tr>
+				<td>Class</td>
+				<td><input type="text" name="class"></td>
+			</tr>
+			<tr>
+				<td>University</td>
+				<td><input type="text" name="university"></td>
+			</tr>
+			<tr>
+				<td>Hobby</td>
+				<td>	
+					<table>
+						<tr>
+							<td></td>
+							<td>Yes</td>
+							<td>No</td>
+						</tr>
+						<tr>
+							<td>Animal</td>
+							<td><input type="radio" name="Animal" value="1"></td>
+							<td><input type="radio" name="Animal" value="0"></td>
+						</tr>
+						<tr>
+							<td>Play Game</td>
+							<td><input type="radio" name="playGame" value="1"></td>
+							<td><input type="radio" name="playGame" value="0"></td>
+						</tr>
+						<tr>
+							<td>Watch Movie</td>
+							<td><input type="radio" name="watchMovie" value="1"></td>
+							<td><input type="radio" name="watchMovie" value="0"></td>
+						</tr>
+						<tr>
+							<td>Read Book</td>
+							<td><input type="radio" name="readBook" value="1"></td>
+							<td><input type="radio" name="readBook" value="0"></td>
+						</tr>
+						<tr>
+							<td>Listen to Music</td>
+							<td><input type="radio" name="listenToMusic" value="1"></td>
+							<td><input type="radio" name="listenToMusic" value="0"></td>
+						</tr>
+						<tr>
+							<td>Facebook</td>
+							<td><input type="radio" name="Facebook" value="1"></td>
+							<td><input type="radio" name="Facebook" value="0"></td>
+						</tr>
+						<tr>
+							<td>Fix Bug</td>
+							<td><input type="radio" name="fixBug" value="1"></td>
+							<td><input type="radio" name="fixBug" value="0"></td>
+						</tr>
+                        <tr>
+							<td>Coding</td>
+							<td><input type="radio" name="Coding" value="1"></td>
+							<td><input type="radio" name="Coding" value="0"></td>
+						</tr>
+					</table>
+				</td>
+                <tr>
+                    <td>
+                        <input type="submit" value="Click to Submit" form="info">
+                    </td>
+                </tr>
+		</table>
+    </form>
+</body>
+</html>
