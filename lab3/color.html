@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <a href="" style="color:red" onmouseover="text1_in()" onmouseout="text1_out()">RED</a>
+    <p id="text_1">Di chuyển chuột vào link RED, dòng này sẽ chuyển sang màu đỏ</p>
+
+    <a href="" style="color:green" onmouseover="text2_in()" onmouseout="text2_out()">GREEN</a>
+    <p id="text_2">Di chuyển chuột vào link GREEN, dòng này sẽ chuyển sang màu xanh lục</p>
+
+    <a href="" style="color:blue" onmouseover="text3_in()" onmouseout="text3_out()">BLUE</a>
+    <p id="text_3">Di chuyển chuột vào link BLUE, dòng này sẽ chuyển sang màu xanh da trời</p>
+</body>
+<script>
+    var text1 = document.getElementById("text_1");
+    var text2 = document.getElementById("text_2");
+    var text3 = document.getElementById("text_3");
+
+    function text1_in(){
+        text1.style.color="red";
+    }
+    function text1_out(){
+        text1.style.color="black";
+    }
+
+    function text2_in(){
+        text2.style.color="green";
+    }
+    function text2_out(){
+        text2.style.color="black";
+    }
+
+    function text3_in(){
+        text3.style.color="blue";
+    }
+    function text3_out(){
+        text3.style.color="black";
+    }
+
+</script>
+</html>
