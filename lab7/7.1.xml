@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<students>
+    <student>
+        <mssv>20194217</mssv>
+        <name>Chau Quang Anh</name>
+        <class>ktmt - it2 - 03</class>
+        <address>Vinh Phuc</address>
+        <phone>038xxxxxxx</phone>
+    </student>
+	
+    <student>
+    	<mssv>20194221</mssv>
+        <name>Ngo Tuan Anh</name>
+        <class>ktmt - it2 - 03</class>
+        <address>Ha noi</address>
+        <phone>0123456789</phone>
+    </student>
+</students>
